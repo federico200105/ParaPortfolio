@@ -1,0 +1,24 @@
+.sec-03{
+    background: #c4c4c4;
+    position: relative;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sec-03 h2{
+    text-align: center;
+    position: absolute;
+    top: 70px;
+}
+.location iframe{
+    width: 100%;
+    margin-top: 60px;
+}
+@media screen and (min-width:480px){
+    .sec-03 h2{
+        margin-bottom: 20px;
+    }
+}

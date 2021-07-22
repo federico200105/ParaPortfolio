@@ -1,0 +1,62 @@
+.sec-02{
+    background: #f2f2f2;
+}
+.sec-02 h2{
+    text-align: left;
+    font-weight: bold;
+}
+.about-me p{
+    font-size: 15px;
+    text-align: justify;
+}
+.about-me-footer{
+    display: flex;
+}
+.about-me-footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.about-me-footer ul li{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.about-me-footer ul li:nth-child(1):hover{
+    color:darkblue;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+.about-me-footer ul li:nth-child(2):hover{
+    color:darksalmon;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+.about-me-footer ul li:nth-child(3):hover{
+    color:darkmagenta;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+.about-me-footer ul li:nth-child(4):hover{
+    color:darkturquoise;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+@media screen and (min-width:480px){
+    .sec-02 h2{
+        font-weight: bold;
+    }
+    .about-me p{
+        font-size: 20px;
+    }
+    .about-me-footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 50px;
+    }
+    .about-me-footer ul{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}

@@ -1,0 +1,96 @@
+@media screen and (min-width:724px){
+    .site-footer{
+        background-color: #030303;
+    }
+    .page-width{
+        padding: 0 20px;
+    }
+    .flex-footer{
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+    .flex-item{
+        flex: 1 1 20%;
+    }
+    .site-footer__section h4{
+        color: white;
+        font-size: 25px;
+        display: flex;
+    }
+    .site-footer__list-item{
+        margin-bottom: 10px;
+        margin-top: 15px;
+        display: flex;
+    }
+    .site-footer__list-item a {
+        color: rgba(255, 255, 255, 0.6);
+        transition: .2s;
+        font-size: 18px;
+    }
+    .site-footer__list-item a:hover{
+        text-decoration: none;
+        color:#fff;
+    }
+    .list-icon{
+        display: inline-block;
+        font-size: 18px;
+    }
+    .icon{
+        color:rgba(255, 255, 255, 0.6);
+        transition: .2s;
+    }
+    .icon:hover{
+        color:white;
+        text-decoration: none;
+    }
+    .hero-image{
+        background-attachment:fixed;
+    }
+}
+    @media only screen and (max-width: 749px){
+    .site-footer .page-width {
+    padding: 0 20px;
+    }
+    .site-footer{
+        padding-top: 40px;
+        background-color: #030303;
+    }
+    .page-width{
+        padding: 0 20px;
+    }
+    .site-footer__section{
+        padding-bottom: 40px;
+    }
+    .site-footer__section h4{
+        color: white;
+        font-size: 25px;
+        display: flex;
+    }
+    .site-footer__list-item{
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+    .site-footer__list-item a {
+        color: rgba(255, 255, 255, 0.6);
+        transition: .2s;
+    }
+    .site-footer__list-item a:hover{
+        text-decoration: none;
+        color:#fff;
+    }
+    .list-icon{
+        display: inline-block;
+        font-size: 18px;
+    }
+    .icon{
+        color:rgba(255, 255, 255, 0.6);
+        transition: .2s;
+    }
+    .icon:hover{
+        color:white;
+        text-decoration: none;
+    }
+}
